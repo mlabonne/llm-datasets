@@ -10,8 +10,6 @@
 </div>
 <br/>
 
-All the datasets that are listed here should be under permissive licensing (Apache 2.0, MIT, cc-by-4.0, etc.).
-
 ## 👍 What is a good dataset?
 
 Data is the most valuable asset in LLM development. While datasets can't be directly evaluated like models, high-quality datasets have the following characteristics:
@@ -24,7 +22,7 @@ Measuring accuracy can be easy in the case of mathematical problems using a Pyth
 
 ## 📅 Open SFT datasets
 
-Once a model has been pre-trained on a next-token prediction task, supervised fine-tuning is used to turn it into an assistant capable of answering questions and achieving tasks. These datasets contain pairs of instructions and outputs to train LLMs to go beyond their pre-training objective.
+Once a model has been pre-trained on a next-token prediction task, supervised fine-tuning is used to turn it into an assistant capable of answering questions and achieving tasks. These datasets contain pairs of instructions and outputs to train LLMs to go beyond their pre-training objective. All the datasets listed here should be under permissive licensing (Apache 2.0, MIT, cc-by-4.0, etc.).
 
 ### General-purpose
 
