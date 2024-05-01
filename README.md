@@ -24,7 +24,7 @@ Measuring accuracy can be easy in the case of mathematical problems using a Pyth
 
 Once a model has been pre-trained on a next-token prediction task, supervised fine-tuning is used to turn it into an assistant capable of answering questions and achieving tasks. These datasets contain pairs of instructions and outputs to train LLMs to go beyond their pre-training objective. All the datasets listed here should be under permissive licensing (Apache 2.0, MIT, cc-by-4.0, etc.).
 
-### General-purpose (sorted by size from largest to smallest )
+### General-purpose (sorted by size from largest to smallest)
 
 The goal of general-purpose datasets is to transform base models into versatile and capable assistants by exposing them to a wide range of high-quality data. These datasets often include a diverse mix of real-world and synthetic data, commonly generated using models like GPT-4.
 
