@@ -139,6 +139,9 @@ Start by aggregating available data from various sources (open-source or not) an
 * [**Auto Data**](https://github.com/Itachi-Uchiha581/Auto-Data): Lightweight library to automatically generate fine-tuning datasets with API models.
 * [**Bonito**](https://github.com/BatsResearch/bonito): Library for generating synthetic instruction tuning datasets for your data without GPT (see also [AutoBonito](https://colab.research.google.com/drive/1l9zh_VX0X4ylbzpGckCjH5yEflFsLW04?usp=sharing)).
 * [**Augmentoolkit**](https://github.com/e-p-armstrong/augmentoolkit): Framework to convert raw text into datasets using open-source and closed-source models.
+ 
+### Data preparation 
+* [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Data Prep Kit is a community project to democratize and accelerate unstructured data preparation for LLM app developers. It offers [data preparation capabilities](https://github.com/IBM/data-prep-kit/tree/dev/transforms) for both Code and Language modalities. The goal is to offer high-level APIs for developers to quickly get started in working with their data, without needing expertise in the underlying runtimes and frameworks, thereby reducing time to value. The toolkit supports a growing number of data preparation modules across python, ray, and spark runtimes. It also supports a wide range of scale from a laptop to an entire data centre. The tool also supports KFP based implementations to support no code data processing. The toolkit has a nice [getting started](https://github.com/IBM/data-prep-kit/tree/dev?tab=readme-ov-file#-getting-started-) section that has various examples to get started with. 
 
 ## Acknowledgments
 
