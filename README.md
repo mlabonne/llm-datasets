@@ -37,6 +37,7 @@ The goal of general-purpose datasets is to transform base models into versatile 
 | [Dolphin-2.9](https://huggingface.co/datasets/cognitivecomputations/Dolphin-2.9) | 1.39M | Cognitive Computations | Apr 2023 | Large-scale general-purpose dataset used by the Dolphin models. |
 | [WildChat-1M](https://huggingface.co/datasets/allenai/WildChat-1M)          | 1.04M  | Zhao et al. | May 2023 | Real conversations between human users and GPT-3.5/4, including metadata. See the [WildChat paper](https://arxiv.org/abs/2405.01470). |
 | [OpenHermes-2.5](https://huggingface.co/datasets/teknium/OpenHermes-2.5)    | 1M    | Teknium | Nov 2023 | Another large-scale dataset used by the OpenHermes models. |
+| [Infinity-Instruct ](https://huggingface.co/datasets/BAAI/Infinity-Instruct ) | 660k  | BAAI | Jun 2024 | Samples based on a collection of selected and evolved instructions. |
 | [SlimOrca](https://huggingface.co/datasets/Open-Orca/SlimOrca)              | 518k  | Lian et al. | Sep 2023 | Curated subset of [OpenOrca](https://huggingface.co/datasets/Open-Orca/OpenOrca) using GPT-4-as-a-judge to remove wrong answers. |
 | [Tulu V2 Mix](https://huggingface.co/datasets/allenai/tulu-v2-sft-mixture)  | 326k  | Ivison et al. | Nov 2023 | Mix of high-quality datasets. See [Tulu 2 paper](https://arxiv.org/abs/2311.10702). |
 | [UltraInteract SFT](https://huggingface.co/datasets/openbmb/UltraInteract_sft) | 289k  | Yuan et al. | Apr 2024 | Focus on math, coding, and logic tasks with step-by-step answers. See [Eurus paper](https://arxiv.org/abs/2404.02078). |
