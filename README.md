@@ -114,55 +114,53 @@ W.I.P.
 
 ## 🔧 Tools
 
-To create a high-quality dataset, focus on carefully curating a diverse set of relevant, accurate and informative examples rather than simply maximizing dataset size.
+To create a high-quality dataset, focus on carefully curating a diverse set of relevant, accurate, and informative examples rather than simply maximizing dataset size.
 
-Start by aggregating available data from various sources (open-source or not) and apply filters like data deduplication and data quality. If the initial dataset is small or insufficient, consider synthetically generating additional data that mirrors its quality and style. Iteratively explore and refine the dataset by assessing model performance, identifying gaps and collecting or generate data to address those shortcomings.
+Start by aggregating available data from various sources (open-source or not) and applying filters like data deduplication and data quality. If the initial dataset is small or insufficient, consider synthetically generating additional data that mirrors its quality and style. Iteratively explore and refine the dataset by assessing model performance, identifying gaps, and collecting or generating data to address those shortcomings.
 
-### Data cleaning
+Tools listed in this section may belong to several categories but appear in only one for clarity.
 
-#### Algorithms
-* **MinHash**: fuzzy deduplication with hashing, sorting, and Jaccard similarity (preferred technique).
-* **BLOOM filters**: fuzzy deduplication with hashing and fixed-size vector.
-* **Sentence deduplication**: exact sentence matching.
-* **Decontamination**: remove samples that are too close to test sets, using either exact or fuzzy filtering.
+### Data deduplication and decontamination
+* **Exact deduplication**: remove identical samples with data normalization (e.g., convert text to lowercase), hash generation (e.g., create an MD5 or SHA-256 hash for each sample), and duplicate removal.
+* **Fuzzy deduplication**
+  * **MinHash**: fuzzy deduplication with hashing, sorting, and Jaccard similarity (preferred technique).
+  * **BLOOM filters**: fuzzy deduplication with hashing and fixed-size vector.
+* **Decontamination**: remove samples too close to test sets, using either exact or fuzzy filtering.
+
+### Data quality evaluation
 * **Rule-based filtering**: Remove samples based on a list of unwanted words, like refusals and "As an AI assistant" ([example](https://huggingface.co/datasets/cognitivecomputations/WizardLM_alpaca_evol_instruct_70k_unfiltered/blob/main/wizardlm_clean.py)).
-
-#### Tools
-##### Finetuning-scale
-
 * [**Argilla**](https://argilla.io/): Open-source data curation platform that allows you to filter and annotate datasets in a collaborative way.
-* [**Lilac**](https://github.com/lilacai/lilac): Tool to curate better data for LLMs, used by NousResearch, databricks, cohere, Alignment Lab AI. It can also apply filters.
-* [**text-clustering**](https://github.com/huggingface/text-clustering): Embed, cluster, and label text datasets using Sentence Transformers, UMAP, DBSCAN, and an LLM.
-* [**BunkaTopics**](https://github.com/charlesdedampierre/BunkaTopics): Data cleaning and topic modeling visualization.
 * [**LLM-as-a-judge**](https://colab.research.google.com/github/huggingface/cookbook/blob/main/notebooks/en/llm_judge.ipynb): Colab notebook that provides code to rate outputs with Mixtral-7x8B.
-* 
-##### Pretrain-scale
 * [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Framwork for data preparation for both code and language, with modules in Python, Ray, and Spark, and a wide range of scale from laptops to data centers.
-* [**DataTrove**](https://github.com/huggingface/datatrove/): HuggingFace library for large-scale data processing, used in the creation of [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
-* [**CCNet**](https://github.com/facebookresearch/cc_net): Tools to download and cleanup Common Crawl data, used to create C4
+* [**DataTrove**](https://github.com/huggingface/datatrove/): HuggingFace library for large-scale data processing, used in the creation of [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb).
 
 ### Data generation
 
+#### SFT datasets
 * [**Distilabel**](https://github.com/argilla-io/distilabel): General-purpose framework that can generate and augment data (SFT, DPO) with techniques like UltraFeedback and DEITA.
-* [**llm-swarm**](https://github.com/huggingface/llm-swarm): Generate synthetic datasets for pretraining or fine-tuning using either local LLMs or Inference Endpoints on the Hugging Face Hub.
 * [**Auto Data**](https://github.com/Itachi-Uchiha581/Auto-Data): Lightweight library to automatically generate fine-tuning datasets with API models.
 * [**Bonito**](https://github.com/BatsResearch/bonito): Library for generating synthetic instruction tuning datasets for your data without GPT (see also [AutoBonito](https://colab.research.google.com/drive/1l9zh_VX0X4ylbzpGckCjH5yEflFsLW04?usp=sharing)).
 * [**Augmentoolkit**](https://github.com/e-p-armstrong/augmentoolkit): Framework to convert raw text into datasets using open-source and closed-source models.
-* [**Magpie**](https://github.com/magpie-align/magpie): Your efficient and high-quality synthetic data generation pipeline by prompting aligned LLMs with nothing
-* [**Genstruct**](https://huggingface.co/NousResearch/Genstruct-7B): An instruction generation model, which is designed to generate valid instructions from raw data
-* [**Cosmopedia (Repo)**](https://github.com/huggingface/cosmopedia): Huggingface's code for generating the [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) dataset.
-* [**textbook_quality**](https://github.com/VikParuchuri/textbook_quality): A repository for generating "textbook"-quality data, mimicking the approach of the Microsoft's Phi models.
-* [**Autolabel**](https://github.com/refuel-ai/autolabel): Automatically label data using popular language models
+* [**Magpie**](https://github.com/magpie-align/magpie): Your efficient and high-quality synthetic data generation pipeline by prompting aligned LLMs with nothing.
+* [**Genstruct**](https://huggingface.co/NousResearch/Genstruct-7B): An instruction generation model, which is designed to generate valid instructions from raw data.
 * [**DataDreamer**](https://datadreamer.dev/docs/latest/): A python library for prompting and synthetic data generation.
 
-### Data scraping
-* [**Trafilatura**](https://github.com/adbar/trafilatura**): Python & Command-line tool to gather text and metadata on the Web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116)]
-* [**Marker**](https://github.com/VikParuchuri/marker): Quickly convert PDFs to markdown text
+#### Pre-training datasets
+* [**llm-swarm**](https://github.com/huggingface/llm-swarm): Generate synthetic datasets for pretraining or fine-tuning using either local LLMs or Inference Endpoints on the Hugging Face Hub.
+* [**Cosmopedia (Repo)**](https://github.com/huggingface/cosmopedia): Huggingface's code for generating the [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) dataset.
+* [**textbook_quality**](https://github.com/VikParuchuri/textbook_quality): A repository for generating textbook-quality data, mimicking the approach of the Microsoft's Phi models.
 
-### Data Exploration and Feature Extraction
+### Data Exploration
+* [**sentence-transformers**](https://sbert.net/): A python module for working with popular language embedding models
+* [**Lilac**](https://github.com/lilacai/lilac): Tool to curate better data for LLMs, used by NousResearch, databricks, cohere, Alignment Lab AI. It can also apply filters.
 * [**Nomic Atlas**](https://github.com/nomic-ai/nomic): Interact with instructed data to find insights and store embeddings.
 * [**text-clustering**](https://github.com/huggingface/text-clustering): A framework from Huggingface for clustering textual data
-* [**sentence-transformers**](https://sbert.net/): A python module for working with popular language embedding models
+* [**BunkaTopics**](https://github.com/charlesdedampierre/BunkaTopics): Data cleaning and topic modeling visualization.
+* [**Autolabel**](https://github.com/refuel-ai/autolabel): Automatically label data using popular language models
+
+### Data scraping
+* [**Trafilatura**](https://github.com/adbar/trafilatura**): Python & command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116)].
+* [**Marker**](https://github.com/VikParuchuri/marker): Quickly convert PDFs to markdown text.
 
 ## Acknowledgments
 
