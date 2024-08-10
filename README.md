@@ -119,17 +119,17 @@ Start by aggregating available data from various sources (open-source or not) an
 Tools listed in this section may belong to several categories but appear in only one for clarity.
 
 ### Data deduplication and decontamination
-* **Exact deduplication**: remove identical samples with data normalization (e.g., convert text to lowercase), hash generation (e.g., create an MD5 or SHA-256 hash for each sample), and duplicate removal.
+* **Exact deduplication**: Remove identical samples with data normalization (e.g., convert text to lowercase), hash generation (e.g., create an MD5 or SHA-256 hash for each sample), and duplicate removal.
 * **Fuzzy deduplication**
-  * **MinHash**: fuzzy deduplication with hashing, sorting, and Jaccard similarity (preferred technique).
-  * **BLOOM filters**: fuzzy deduplication with hashing and fixed-size vector.
-* **Decontamination**: remove samples too close to test sets, using either exact or fuzzy filtering.
+  * **MinHash**: Fuzzy deduplication with hashing, sorting, and Jaccard similarity (preferred technique).
+  * **BLOOM filters**: Fuzzy deduplication with hashing and fixed-size vector.
+* **Decontamination**: Remove samples too close to test sets, using either exact or fuzzy filtering.
 
 ### Data quality evaluation
 * **Rule-based filtering**: Remove samples based on a list of unwanted words, like refusals and "As an AI assistant" ([example](https://huggingface.co/datasets/cognitivecomputations/WizardLM_alpaca_evol_instruct_70k_unfiltered/blob/main/wizardlm_clean.py)).
 * [**Argilla**](https://argilla.io/): Open-source data curation platform that allows you to filter and annotate datasets in a collaborative way.
 * [**LLM-as-a-judge**](https://colab.research.google.com/github/huggingface/cookbook/blob/main/notebooks/en/llm_judge.ipynb): Colab notebook that provides code to rate outputs with Mixtral-7x8B.
-* [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Framwork for data preparation for both code and language, with modules in Python, Ray, and Spark, and a wide range of scale from laptops to data centers.
+* [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Framework for data preparation for both code and language, with modules in Python, Ray, and Spark, and a wide range of scale from laptops to data centers.
 * [**DataTrove**](https://github.com/huggingface/datatrove/): HuggingFace library for large-scale data processing, used in the creation of [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb).
 
 ### Data generation
@@ -145,7 +145,7 @@ Tools listed in this section may belong to several categories but appear in only
 
 #### Pre-training datasets
 * [**llm-swarm**](https://github.com/huggingface/llm-swarm): Generate synthetic datasets for pretraining or fine-tuning using either local LLMs or Inference Endpoints on the Hugging Face Hub.
-* [**Cosmopedia (Repo)**](https://github.com/huggingface/cosmopedia): Huggingface's code for generating the [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) dataset.
+* [**Cosmopedia**](https://github.com/huggingface/cosmopedia): Hugging Face's code for generating the [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) dataset.
 * [**textbook_quality**](https://github.com/VikParuchuri/textbook_quality): A repository for generating textbook-quality data, mimicking the approach of the Microsoft's Phi models.
 
 ### Data Exploration
@@ -157,7 +157,7 @@ Tools listed in this section may belong to several categories but appear in only
 * [**Autolabel**](https://github.com/refuel-ai/autolabel): Automatically label data using popular language models
 
 ### Data scraping
-* [**Trafilatura**](https://github.com/adbar/trafilatura**): Python & command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116)].
+* [**Trafilatura**](https://github.com/adbar/trafilatura**): Python and command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116).
 * [**Marker**](https://github.com/VikParuchuri/marker): Quickly convert PDFs to markdown text.
 
 ## Acknowledgments
