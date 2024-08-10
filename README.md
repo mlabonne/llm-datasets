@@ -148,13 +148,13 @@ Tools listed in this section may belong to several categories but appear in only
 * [**Cosmopedia**](https://github.com/huggingface/cosmopedia): Hugging Face's code for generating the [Cosmopedia](https://huggingface.co/datasets/HuggingFaceTB/cosmopedia) dataset.
 * [**textbook_quality**](https://github.com/VikParuchuri/textbook_quality): A repository for generating textbook-quality data, mimicking the approach of the Microsoft's Phi models.
 
-### Data Exploration
-* [**sentence-transformers**](https://sbert.net/): A python module for working with popular language embedding models
+### Data exploration
+* [**sentence-transformers**](https://sbert.net/): A python module for working with popular language embedding models.
 * [**Lilac**](https://github.com/lilacai/lilac): Tool to curate better data for LLMs, used by NousResearch, databricks, cohere, Alignment Lab AI. It can also apply filters.
 * [**Nomic Atlas**](https://github.com/nomic-ai/nomic): Interact with instructed data to find insights and store embeddings.
-* [**text-clustering**](https://github.com/huggingface/text-clustering): A framework from Huggingface for clustering textual data
+* [**text-clustering**](https://github.com/huggingface/text-clustering): A framework from Huggingface for clustering textual data.
 * [**BunkaTopics**](https://github.com/charlesdedampierre/BunkaTopics): Data cleaning and topic modeling visualization.
-* [**Autolabel**](https://github.com/refuel-ai/autolabel): Automatically label data using popular language models
+* [**Autolabel**](https://github.com/refuel-ai/autolabel): Automatically label data using popular language models.
 
 ### Data scraping
 * [**Trafilatura**](https://github.com/adbar/trafilatura**): Python and command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116).
