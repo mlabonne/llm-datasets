@@ -65,7 +65,6 @@ LLMs often struggle with mathematical reasoning and formal logic, which has led 
 | [MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct)              | 262k | Yue et al.   | Sep 2023 | Compiled from 13 math rationale datasets, six of which are newly curated, and focuses on chain-of-thought and program-of-thought.      |
 | [Orca-Math](https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k) | 200k | Mitra et al. | Feb 2024 | Grade school math world problems generated using GPT4-Turbo. See [Orca-Math paper](https://arxiv.org/pdf/2402.14830.pdf).              |
 |[NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT) | 859k | Jia LI et al. | 2024 |The sources of the dataset range from Chinese high school math exercises to US and international mathematics olympiad competition problems. |
-|[MathInstruct](https://huggingface.co/datasets/TIGER-Lab/MathInstruct) | 262k | Xiang Yue et al. | 2023 | It uniquely focuses on the hybrid use of chain-of-thought (CoT) and program-of-thought (PoT) rationales, and ensures extensive coverage of diverse mathematical fields.
 
 ### Code
 
