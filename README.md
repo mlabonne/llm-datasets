@@ -81,6 +81,7 @@ Code is another challenging domain for LLMs that lack specialized pre-training. 
 | [Code-Feedback](https://huggingface.co/datasets/m-a-p/Code-Feedback)                                         | 66.4k | Zheng et al.  | Feb 2024 | Diverse Code Interpreter-like dataset with multi-turn dialogues and interleaved text and code responses. See [OpenCodeInterpreter paper](https://arxiv.org/abs/2402.14658).                                                                                                                                                                           |
 | [Open-Critic-GPT](https://huggingface.co/datasets/Vezora/Open-Critic-GPT) | 55.1k | Vezora  | Jul 2024 | Use a local model to create, introduce, and identify bugs in code across multiple programming languages. |
 | [self-oss-instruct-sc2-exec-filter-50k](https://huggingface.co/datasets/bigcode/self-oss-instruct-sc2-exec-filter-50k) | 50.7k | Lozhkov et al.  | Apr 2024 | Created in three steps with seed functions from TheStack v1, self-instruction with StarCoder2, and self-validation. See the [blog post](https://huggingface.co/blog/sc2-instruct). |
+| [The-Vault](https://huggingface.co/datasets/Fsoft-AIC/the-vault-function) | 34M | FSoft AIC  | Dec 2023 | The Vault is a large-scale, comprehensive, multi-level code snippet datasets with high-quality code-text pairs, derived from 10 popular programming languages from The Stack. See [The Vault paper](https://arxiv.org/abs/2305.06156) |
 
 ### Conversation & Role-Play
 
