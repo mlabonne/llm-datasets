@@ -105,6 +105,7 @@ Function calling allows large language models (LLMs) to execute predefined funct
 | [glaive-function-calling-v2](https://huggingface.co/datasets/glaiveai/glaive-function-calling-v2) | 113k  | Sahil Chaudhary | Sep 2023 | High-quality dataset with pairs of instructions and answers in different languages. <br>See [Locutusque/function-calling-chatml](https://huggingface.co/datasets/Locutusque/function-calling-chatml) for a variant without conversation tags. |
 | [xlam-function-calling-60k](https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k)                          | 60k   | Salesforce      | Jun 2024 | Samples created using a data generation pipeline designed to produce verifiable data for function-calling applications |
 | [Agent-FLAN](https://huggingface.co/datasets/internlm/Agent-FLAN)                                 | 34.4k | internlm        | Mar 2024 | Mix of AgentInstruct, ToolBench, and ShareGPT datasets.                             |
+| [ProjectDev](https://huggingface.co/datasets/Fsoft-AIC/ProjectDev)                                 | 20 | FSoft-AIC        | June 2024 | A dataset of software development problems to assess the ability of multi-agent systems in generating complete software from user's tasks.  See [this paper](https://arxiv.org/abs/2406.11912) for more details.                  |
 
 ## ⚖️ Preference alignment
 
