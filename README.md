@@ -193,3 +193,15 @@ Please let me know if a dataset is not properly credited.
 - Lifan Yuan et al, "Advancing LLM Reasoning Generalists with Preference Trees," 2024.
 - Wei Liu et al, "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning," 2024.
 - Xingyao Wang et al, "MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback," 2024.
+
+## Citation
+
+```
+@misc{llm_datasets,
+  author = {Labonne, Maxime},
+  month = {04},
+  title = {{LLM Datasets}},
+  url = {[https://github.com/github-linguist/linguist](https://github.com/mlabonne/llm-datasets/)},
+  year = {2024}
+}
+```
