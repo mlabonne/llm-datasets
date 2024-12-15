@@ -196,7 +196,7 @@ Please let me know if a dataset is not properly credited.
 
 ## Citation
 
-```
+```bibtex
 @misc{llm_datasets,
   author = {Labonne, Maxime},
   month = {04},
