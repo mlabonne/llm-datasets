@@ -1,0 +1,13 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: llm-datasets
+message: >-
+  High-quality datasets, tools, and concepts for LLM
+  fine-tuning.
+type: software
+authors:
+  - given-names: Maxime
+    family-names: Labonne
+repository-code: 'https://github.com/mlabonne/llm-datasets'
