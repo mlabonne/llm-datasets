@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://i.imgur.com/SekZcgb.png" alt="Image">
   <p>
-    🐦 <a href="https://twitter.com/maximelabonne">Follow me on X</a> • 
+    𝕏 <a href="https://twitter.com/maximelabonne">Follow me on X</a> • 
     🤗 <a href="https://huggingface.co/mlabonne">Hugging Face</a> • 
     💻 <a href="https://mlabonne.github.io/blog">Blog</a> • 
     📙 <a href="https://github.com/PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python">Hands-on GNN</a>
