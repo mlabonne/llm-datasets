@@ -133,6 +133,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 * [**judges**](https://github.com/quotient-ai/judges): Small library of LLM judges with various classifiers and graders (early development).
 
 ### Data generation
+* [**Curator**](https://github.com/bespokelabsai/curator/): Synthetic data generation tool that makes it easy to build pipelines around LLMs, use batching, and view data in progress.
 * [**Distilabel**](https://github.com/argilla-io/distilabel): General-purpose framework that can generate and augment data (SFT, DPO) with techniques like UltraFeedback and DEITA.
 * [**Augmentoolkit**](https://github.com/e-p-armstrong/augmentoolkit): Framework to convert raw text into datasets using open-source and closed-source models.
 * [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Framework for data preparation for both code and language, with modules in Python, Ray, and Spark, and a wide range of scale from laptops to data centers.
