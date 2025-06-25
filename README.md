@@ -125,6 +125,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 ### Data scraping
 * [**Trafilatura**](https://github.com/adbar/trafilatura): Python and command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116).
 * [**Marker**](https://github.com/VikParuchuri/marker): Quickly convert PDFs to markdown text.
+* [**SerpApi**](https://serpapi.com): Scrape data from search engines like Google, Bing, Amazon and more with a fast, easy, and complete API.
 
 ### Data filtering
 * **Rule-based filtering**: Remove samples based on a list of unwanted words, like refusals and "As an AI assistant" ([example](https://huggingface.co/datasets/cognitivecomputations/WizardLM_alpaca_evol_instruct_70k_unfiltered/blob/main/wizardlm_clean.py)).
