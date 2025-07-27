@@ -139,7 +139,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 * [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Framework for data preparation for both code and language, with modules in Python, Ray, and Spark, and a wide range of scale from laptops to data centers.
 
 ### Data exploration
-* [**Lilac**](https://github.com/lilacai/lilac): Tool for exploration, curation and quality control of datasets.
+* [**Lilac**](https://www.lilacml.com/): Tool for exploration, curation, and quality control of datasets.
 * [**Nomic Atlas**](https://github.com/nomic-ai/nomic): Interact with instructed data to find insights and store embeddings.
 * [**text-clustering**](https://github.com/huggingface/text-clustering): A framework from Huggingface for clustering textual data.
 * [**Autolabel**](https://github.com/refuel-ai/autolabel): Automatically label data using popular language models.
