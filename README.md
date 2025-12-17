@@ -130,6 +130,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 
 * [**Trafilatura**](https://github.com/adbar/trafilatura): Python and command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116).
 * [**Marker**](https://github.com/VikParuchuri/marker): Quickly convert PDFs to markdown text.
+* [**SerpApi**](https://serpapi.com): Scrape data from search engines like Google, Bing, Amazon and more with a fast, easy, and complete API.
 
 ### Data filtering
 
