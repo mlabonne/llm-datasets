@@ -3,7 +3,7 @@
   <p>
     𝕏 <a href="https://twitter.com/maximelabonne">Follow me on X</a> • 
     🤗 <a href="https://huggingface.co/mlabonne">Hugging Face</a> • 
-    💻 <a href="https://mlabonne.github.io/blog">Blog</a> • 
+    💻 <a href="https://maximelabonne.substack.com/">Blog</a> • 
     📙 <a href="https://packt.link/a/9781836200079">LLM Engineer's Handbook</a>
   </p>
    <p><em>Curated list of datasets and tools for post-training.</em></p>
