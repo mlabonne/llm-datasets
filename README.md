@@ -174,3 +174,5 @@ Please let me know if a dataset is not properly credited.
 - Lifan Yuan et al, "Advancing LLM Reasoning Generalists with Preference Trees," 2024.
 - Wei Liu et al, "What Makes Good Data for Alignment? A Comprehensive Study of Automatic Data Selection in Instruction Tuning," 2024.
 - Xingyao Wang et al, "MINT: Evaluating LLMs in Multi-turn Interaction with Tools and Language Feedback," 2024.
+
+- [AgentMarket](https://agentmarket.cloud) - B2A marketplace for AI agents. 189 listings, 28M+ records.
