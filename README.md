@@ -20,6 +20,7 @@ Data is the most valuable asset in LLM development. When building a high-quality
 
 To ensure the quality of a dataset, it is essential to combine various techniques, such as manuals reviews, heuristics like rule-based filtering, and scoring via judge LLMs or reward models.
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for multi-agent orchestration with Claude Code. Structured prompt dataset for multi-agent coordination. MIT licensed.
 ## 📅 Instruction Datasets
 
 Once a model has been pre-trained on a next-token prediction task, Supervised Fine-Tuning (SFT) is used to turn it into an assistant capable of answering questions and following instructions. During SFT, models learn a chat template and are specialized in one or more domains.
