@@ -109,6 +109,7 @@ Function calling allows large language models (LLMs) to execute predefined funct
 
 | Dataset | # | Thinking | Notes |
 | ------- | - | -------- | ----- |
+| [AgentTrove](https://huggingface.co/datasets/open-thoughts/AgentTrove) (Apr 2026) | 1.7M | No | Samples drawn from 219 source datasets spanning code repair, shell scripting, mathematical problem-solving, competitive programming, and general computer-use tasks. |
 | [Nemotron-SFT-Agentic-v2](https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2) (Mar 2026) | 992k | Mixed | (NVIDIA Open Model License) Agentic task instruction data with both thinking and non-thinking trajectories (toggled via `chat_template_kwargs.thinking`), from the [Nemotron Post-Training v3](https://huggingface.co/collections/nvidia/nemotron-post-training-v3) collection. |
 | [ToolMind](https://huggingface.co/datasets/Nanbeige/ToolMind) (Nov 2025) | 369k | Yes | Large-scale reasoning-enhanced tool-use dataset with 20K+ tools, using a multi-agent framework simulating user-assistant-tool interactions with fine-grained quality filtering. See [ToolMind paper](https://arxiv.org/abs/2511.15718). |
 | [xlam-function-calling-60k](https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k) (Jun 2024) | 60k | No | Samples created using a data generation pipeline designed to produce verifiable data for function-calling applications. |
