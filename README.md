@@ -152,6 +152,9 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 
 ### Data scraping
 
+- [FutureAGI ai-evaluation](https://github.com/future-agi/ai-evaluation)
+- [FutureAGI futureagi-sdk](https://github.com/future-agi/futureagi-sdk)
+
 * [**Trafilatura**](https://github.com/adbar/trafilatura): Python and command-line tool to gather text and metadata on the web. Used for the creation of [RefinedWeb](https://arxiv.org/abs/2306.01116).
 * [**Marker**](https://github.com/VikParuchuri/marker): Quickly convert PDFs to markdown text.
 
