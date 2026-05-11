@@ -163,6 +163,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 * [**Dolma**](https://github.com/allenai/dolma): AllenAI's high-performance toolkit with ready-to-use taggers, fast deduplication, and cloud support. Built to curate the 3T-token Dolma corpus for OLMo.
 * [**SemHash**](https://github.com/MinishLab/semhash): Fuzzy deduplication based on fast embedding generation with a distilled model.
 * [**Argilla**](https://argilla.io/): Platform that allows you to manually filter and annotate datasets in a collaborative way.
+* [**ai-evaluation**](https://github.com/future-agi/ai-evaluation): Open-source LLM evaluation framework with 50+ metrics, LLM-as-Judge augmentation, and guardrail scanners — useful for filtering datasets by quality, safety, and other heuristics.
 
 ### Data generation
 
