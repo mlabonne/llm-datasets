@@ -170,6 +170,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 * [**Distilabel**](https://github.com/argilla-io/distilabel): General-purpose framework that can generate and augment data (SFT, DPO) with techniques like UltraFeedback and DEITA.
 * [**Augmentoolkit**](https://github.com/e-p-armstrong/augmentoolkit): Framework to convert raw text into datasets using open-source and closed-source models.
 * [**Data Prep Kit**](https://github.com/IBM/data-prep-kit): Framework for data preparation for both code and language, with modules in Python, Ray, and Spark, and a wide range of scale from laptops to data centers.
+* [**simulate-sdk**](https://github.com/future-agi/simulate-sdk): Voice AI simulation SDK for generating synthetic conversation datasets to test AI agents across edge-case scenarios. Useful for creating evaluation/test data for agentic systems.
 
 ### Data exploration
 
