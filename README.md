@@ -174,6 +174,7 @@ Tools listed in this section can help you evaluate, generate, and explore datase
 ### Data exploration
 
 * [**Nomic Atlas**](https://github.com/nomic-ai/nomic): Interact with instructed data to find insights and store embeddings.
+* [**The Chat Archive**](https://thechatarchive.com): Free web search over 2.7M real human–AI conversations from WildChat-4.8M, LMArena (55k, 140k, Search Arena), HH-RLHF, OpenAssistant and others, with filters by model, language and source, side-by-side Arena battles, and per-record licenses.
 
 ## Acknowledgments
 
