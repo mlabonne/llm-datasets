@@ -53,6 +53,7 @@ LLMs often struggle with mathematical reasoning and formal logic, which has led 
 | [OpenThoughts3-1.2M](https://huggingface.co/datasets/open-thoughts/OpenThoughts3-1.2M) (Jun 2025) | 1.2M | Yes | Mixture with 850k math, 250k code, 100k science samples, annotated with QwQ-32B. |
 | [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT) (Jul 2024) | 859k | Yes | Data used to win the first progress prize of the AI Math Olympiad. See the tool-integrated reasoning version [here](https://huggingface.co/datasets/AI-MO/NuminaMath-TIR). |
 | [AM-Thinking-v1-Distilled (Math)](https://huggingface.co/datasets/a-m-team/AM-Thinking-v1-Distilled/blob/main/math.jsonl) (May 2025) | 558k | Yes | Math dataset with verified responses distilled from AM-Thinking-v1 and Qwen3-235B-A22B. See the paper [here](https://arxiv.org/abs/2505.14464). |
+| [CAEL-Verified-Reasoning](https://huggingface.co/datasets/vynly/cael-verified-reasoning) (Nov 2026) | 2M | No | (CC BY 4.0) Synthetic arithmetic, dates, logic and ARC-style problems whose answers are computed by exact solvers, with step-by-step working, a 1.4k hard split, and a bundled verifier usable as an RL reward. |
 
 ### Science
 
